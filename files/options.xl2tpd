@@ -1,0 +1,14 @@
+require-mschap-v2
+ipcp-accept-local
+ipcp-accept-remote
+ms-dns 8.8.8.8
+ms-dns 8.8.4.4
+proxyarp
+auth
+crtscts
+lock
+hide-password
+modem
+debug
+mtu 1280
+mru 1280

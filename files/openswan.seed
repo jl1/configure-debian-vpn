@@ -1,0 +1,17 @@
+openswan	openswan/existing_x509_rootca_filename	    string
+openswan	openswan/no-oe_include_file	                note
+openswan	openswan/existing_x509_key_filename     	string
+openswan	openswan/runlevel_changes               	note
+openswan	openswan/x509_state_name	                string
+openswan	openswan/x509_email_address             	string
+openswan	openswan/x509_country_code              	string	AT
+openswan	openswan/x509_self_signed	                boolean	true
+openswan	openswan/rsa_key_length	                    string	2048
+openswan	openswan/restart	                        boolean	true
+openswan	openswan/existing_x509_certificate_filename	string
+openswan	openswan/x509_common_name	                string
+openswan	openswan/install_x509_certificate	        boolean	false
+openswan	openswan/x509_organizational_unit	        string
+openswan	openswan/x509_locality_name	                string
+openswan	openswan/how_to_get_x509_certificate	    select	create
+openswan	openswan/x509_organization_name	            string
