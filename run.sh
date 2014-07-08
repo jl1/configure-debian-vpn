@@ -9,7 +9,7 @@ random_chars() {
 
 # Assumes eth0 is wan interface
 external_ip() {
-    ip -o -4 addr list eth 0 | awk '{print $4}' | cut -d/ if 1
+    dig +short myip.opendns.com @resolver1.opendns.com
 }
 
 chap_username=$(random_chars 40)
